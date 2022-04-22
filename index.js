@@ -14,8 +14,8 @@ const wallet = new Keypair()
 
 // Retrieve your wallet's credentials
 
-const publicKey = new PublicKey(wallet._kerpair.publicKey)
-const secretKey = wallet._kerpair.secretKey
+const publicKey = new PublicKey(wallet._kerpaiy.publicKey)
+const secretKey = wallet._kerpaiy.secretKey
 
 // Get balance wallet
 const getWalletBalance = async() => {
